@@ -5,13 +5,13 @@ import './App.css';
 import { BrowserRouter } from 'react-router-dom';
 import Sidebar from "./component/Sidebar";
 import Footer from "./component/Footer";
-import Card from './component/card';
 import EarningCard from './component/Card/ECard';
 import RevenueCard from './component/Card/RCard';
 import ProgressBar from './component/Others/Progress';
 import MultiCard from './component/Others/MultiCard';
 import Illustrations from './component/Others/Illustration';
 import Development from './component/Others/Developmet';
+import Card from './component/Carddetails.jsx';
 
 function App() {
 
@@ -22,7 +22,7 @@ function App() {
       <Header />
       <Content />
       
-        <Card />
+        <Card/>
           <div className="row px-4 ml-2 mt-4">
             <EarningCard />
             <RevenueCard />
