@@ -1,0 +1,8 @@
+.content {
+    position: "relative";
+    top: 75;
+    left: 220;
+    width: "calc(100% - 220px)";
+    background-color: "#dedfe2";
+    height: "calc(100vh + 100vh)";
+}
