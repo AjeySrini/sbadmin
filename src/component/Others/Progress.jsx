@@ -39,6 +39,7 @@ const ProgressBar = () => {
 
     return (
         <div className="flex flex-col  px-4 ml-4 mt-4 card shadow mb-4">
+             <h6 className="m-0 font-bold text-primary">Progress </h6>
             {progressData.map((progress) => (
                 <div className='flex flex-col w-full' key={progress.text} >
                     <div className="flex flex-row justify-between">

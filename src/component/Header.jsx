@@ -45,7 +45,7 @@ const Header = () => {
             style={{ display: "flex" }}
           >
             <span  style={{padding: "8px"}}>Ajey Srinivasu</span>
-            <img className="img-profile rounded-full " style={{width:"28px",height:"28px",padding: "2px"}} src="./src/assets/profile.svg"  alt=' not' />
+            <img className="img-profile rounded-full " style={{width:"28px",height:"28px",padding: "2px"}} src="src/assets/profile.svg"  alt=' not' />
           </a>
         </div>
         
