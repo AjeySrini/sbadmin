@@ -15,7 +15,7 @@ export const options = {
       display: false
     }
   },
-  cutoutPercentage: 100,
+  cutout: 120,
 
 };
 
