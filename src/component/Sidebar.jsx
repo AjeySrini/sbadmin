@@ -164,7 +164,7 @@ const Sidebar = ({ children }) => {
         <div class="sidebar-card d-none d-lg-flex">
           <img
             class="sidebar-card-illustration mb-2"
-            src="src/assets/rocket.svg"
+            src="./src/assets/rocket.svg"
             alt="..."
             style={{width:"50%", height:"50%"}}
           />
