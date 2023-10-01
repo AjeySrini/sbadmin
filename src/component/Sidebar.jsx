@@ -18,7 +18,7 @@ const Sidebar = ({ children }) => {
   
   return (
     <div className="container">
-      <div style={{ width: isOpen ? "500px" : "75px" }} className="sidebar">
+      <div style={{ width: isOpen ? "300px" : "75px" }} className="sidebar">
         <div className="top_section">
           <div className="sidebar-brand rotate-n-15">
             <i className="fas fa-laugh-wink icon"></i>
